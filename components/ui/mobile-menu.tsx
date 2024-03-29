@@ -59,18 +59,18 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className=" bg-[#132a13] px-4 py-2">
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Sign in
+            <Link href="/events" className="flex md:text-lg font-bold text-[#ffb703] hover:text-[#132a13] w-full py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Events
             </Link>
           </li>
           <li>
             <Link
-              href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+              href="/news"
+              className="md:text-lg font-bold text-[#ffb703] hover:text-[#132a13] w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm  transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
-              Sign up
+              News
             </Link>
           </li>
         </ul>

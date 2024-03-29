@@ -1,3 +1,4 @@
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 
@@ -9,6 +10,10 @@
 
 @import 'tailwindcss/utilities';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
     .rtl {
@@ -18,5 +23,10 @@
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
 [x-cloak=""] {
+    display: none;
+}
+
+
+html::-webkit-scrollbar {
     display: none;
 }
