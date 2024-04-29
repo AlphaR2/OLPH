@@ -8,8 +8,8 @@ export default function Hero() {
   const [page, setPage] = useState<number>(1);
   useEffect(() => {
     let int = setInterval(() => {
-      setPage((prev) => (prev + 1 >= 7 ? 1 : prev + 1));
-    }, 25000);
+      setPage((prev) => (prev + 1 >= 8 ? 1 : prev + 1));
+    }, 20000);
 
     return () => clearInterval(int);
   }, []);
@@ -26,7 +26,7 @@ export default function Hero() {
           <Image
             src={`/images/${page}.jpg`}
             alt="hero-image"
-            className="w-full border-b-2 border-t-2 border-[#ffe6cd]  object-cover h-[450px] md:h-[500px]"
+            className="w-full border-b-2 border-t-2 border-[#ffe6cd] h-[450px] md:h-[500px]"
             width={1400}
             height={400}
           />
