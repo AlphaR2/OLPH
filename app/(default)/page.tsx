@@ -5,17 +5,20 @@ export const metadata = {
 
 import Hero from "@/components/hero";
 import Features from "@/components/features";
+import Schedule from "@/components/ui/schedule";
 import Newsletter from "@/components/newsletter";
 import Events from "@/components/events";
-import News from "@/components/news";
+import Announce from "@/components/announce";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
+      <Announce/>
+      <Schedule />
       <Events />
-      <News />
+
       <Newsletter />
     </>
   );
