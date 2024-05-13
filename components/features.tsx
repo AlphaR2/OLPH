@@ -1,6 +1,7 @@
 import Image from "next/image";
 import mass from "../public/images/chalice.png";
 import schedule from "../public/images/veil2.jpg";
+import Link from "next/link";
 
 export default function Features() {
   return (
@@ -48,7 +49,9 @@ export default function Features() {
                 worship. Let's journey together in faith and love
               </p>
               <button className="flex w-40 lg:text-lg text-white font-semibold  bg-[#e2961b] p-2 pl-5 rounded-xl ">
-                Stream Live!
+                <a href="https://youtube.com/@frbekomson?si=N4rrYVxXtNBzBsLa">
+                  Stream Live!
+                </a>
               </button>
             </div>
 

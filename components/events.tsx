@@ -42,7 +42,7 @@ export default function Events() {
               data-aos="fade-right"
             >
               <div className="flex flex-col gap-16  w-full justify-center items-center ">
-                <h1 className="inline-flex text-[#132a13]  bg-[#e2961b] rounded-full text-center  text-sm lg:text-base font-semibold py-3 px-6 m-2  mb-4">
+                <h1 className="inline-flex text-[#e2961b]   text-center  text-sm lg:text-2xl font-semibold py-3 px-6 m-2  mb-4">
                   EVENTS
                 </h1>
                 <p className="items-center text-justify md:text-center text-sm  lg:text-lg mx-auto px-4 sm:px-6 max-w-6xl leading-7 lg:leading-10  text-[#132a13] ">

@@ -34,7 +34,7 @@ const Announce = () => {
 
   return (
     <div className="flex flex-col gap-16 py-24 mb-16 w-full justify-center items-center ">
-      <h1 className="inline-flex text-[#132a13]  bg-[#e2961b] rounded-full text-center text-sm  lg:text-base font-semibold py-3 px-6 m-2  mb-4">
+      <h1 className="inline-flex text-[#e2961b]  text-center text-sm  lg:text-2xl font-semibold py-3 px-6 m-2  mb-4">
         Announcement
       </h1>
 
@@ -113,7 +113,7 @@ const Announce = () => {
         </div>
       </div>
 
-      <button className="flex w-40 text-sm  font-semibold  justify-center  text-[#e2961b] p-2 pl-5 rounded-xl ">
+      <button className="flex w-40 text-sm  font-semibold  justify-center  text-[#132a13] bg-[#e2961b]  p-2 pl-5 rounded-xl ">
         View More!
       </button>
 
